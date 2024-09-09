@@ -1,0 +1,93 @@
+@font-face {
+    font-family: 'Young Serif';
+    src: url(./assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+@font-face {
+    font-family: Outfit;
+    src: url(./assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+
+body{
+    background-color:  hsl(30, 54%, 90%) ;
+    min-height: 100vh;
+    min-width: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+h4{
+    color:  hsl(332, 51%, 32%);
+    font-family: Outfit;
+    font-weight: 700;
+    font-size: 16px;
+}
+p{
+    font-family: Outfit;
+    color: hsl(30, 10%, 34%);
+    font-weight: 400;
+}
+.inner{
+    background-color: hsl(330, 100%, 98%);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+ul{
+    list-style: disc;
+    list-style-position: outside;
+    font-size: 14px;
+}
+ul li{
+    padding-left: 20px;
+    padding-bottom: 5px;
+    font-family: Outfit;
+    font-weight: 400;
+    color:hsl(30, 10%, 34%) ;
+
+}
+h3{
+    color: hsl(14, 45%, 36%);
+    font-family: 'Young Serif';
+    font-size: 20px;
+}
+
+.content{
+    width: 600px;
+    height: 1400px;
+    background-color: hsl(0, 0%, 100%);
+    padding: 20px;
+    margin: 90px 0px;
+    border-radius: 20px;
+
+}
+img{
+    width: inherit;
+    height: 300px;
+    border-radius: inherit;
+}
+ol{
+    list-style-position: outside;
+    font-size: 14px;
+
+}
+ol li{
+    font-family: Outfit;
+    padding: 0 0 5px 20px;
+}
+table{
+    width: 100%;
+    font-family: Outfit;
+    border-collapse: collapse;
+    
+}
+ td{
+    border-bottom: 0.2px solid hsl(0, 1%, 62%) ;
+    padding: 10px 30px;
+    color: hsl(30, 10%, 34%);
+   
+}
+.two{
+    color:hsl(14, 45%, 36%) ;
+    font-weight: 700;
+}
